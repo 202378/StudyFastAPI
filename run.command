@@ -1,4 +1,4 @@
 #!/bin/bash
 cd "$(dirname "$0")"
 source .venv/bin/activate
-uvicorn main:app --reload
+uvicorn api.main:app --reload
